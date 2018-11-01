@@ -9,12 +9,12 @@ package herencia;
  *
  * @author T-107
  */
-public class TarjetaAhorro {
-   private int numero;
-   
-    public void setNumero(int x){
-        numero=x;
+public class TarjetaAhorro extends Tarjeta {
+
+    @Override
+    public void pagar() {
         
     }
+   
     
 }
