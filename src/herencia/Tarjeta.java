@@ -14,7 +14,7 @@ public abstract class Tarjeta {
 private String nombre;
 private String tipo;
 private float saldo;
-public abstract void pagar();
+public abstract void pagar(float deposito);
 
     public int getNumero() {
         return numero;
